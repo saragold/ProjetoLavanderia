@@ -1,0 +1,1196 @@
+@charset "UTF-8";
+
+
+/*=========================LAYOUT=========================*/
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: url("imagens/backtrans.png"),
+    linear-gradient(60deg,#5397a4, #226f94);
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    overflow-x: hidden;
+}
+
+
+/*-------------------------BARRA DE NAVEGAÇÃO-------------------------*/
+
+.img-logo{
+    display: block;
+    background-image: url('imagens/logo1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height  media queries */
+    /* width  media queries */
+    margin-top: -15px;
+    color: transparent;
+}
+
+nav.navbar-transparente{
+    padding: 15px;
+    background: rgba(0, 0, 0, .9);
+    border: none;
+}
+
+/*Cor das palavras da navbar*/
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: rgb(11, 253, 255);
+}
+.fonts{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+/*--------------Sectio 1-----------------*/
+
+#sec1-serv{
+    width: 100%;
+    height: 800px;
+}
+
+#higi-serv{
+    margin-top: 100px;
+    margin-left: -90px;
+    width: 1360px;
+    height: 480px;
+    background-color: #040e23;
+}
+
+#higi-serv h1{
+    font-family: Courgette, sans-serif;
+    font-size: 38pt;
+    letter-spacing: -0.04em;
+    color: white;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 30px;
+}
+
+#higi-serv a{
+    list-style-type: none;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30pt;
+    color: white;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.lista-secao-bebe{
+    color: #040e23;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.alt-hover:hover{
+    background-color: #cecece;
+}
+
+.alt{
+    width: 340px;
+}
+
+.alt-mala{
+    width: 250px;
+}
+.alt-tap{
+    width: 250px;
+}
+.alt-ten{
+    width: 240px;
+}
+
+.lista{
+    color: #040e23;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 26pt;
+    font-weight: bold;
+}
+
+.preco{
+    font-family: Arimo, sans-serif;
+    font-size: 13pt;
+    color: #5e5e5e;
+}
+
+.img-bb{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.img-sapato{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 400px;
+}
+.img-malas{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 180px;
+}
+
+/*--------------Section 2-----------------*/
+
+#sect2-serv{
+    width: 100%;
+    height: 800px;
+}
+
+#pass-serv{
+    margin-top: -130px;
+    margin-left: -90px;
+    width: 1360px;
+    height: 480px;
+    background-color: #040e23;
+}
+
+#pass-serv h1{
+    font-family: Courgette, sans-serif;
+    font-size: 38pt;
+    letter-spacing: -0.04em;
+    color: white;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 30px;
+}
+#pass-serv h2{
+    font-family: Arimo, sans-serif;
+    color: #ffffff;
+}
+
+#pass-serv li{
+    list-style-type: none;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30pt;
+    color: white;
+}
+
+.ul2-serv{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 220px;
+}
+
+.img-ternos{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.img-ferro{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 10px;
+}
+.img-camisas{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 200px;
+}
+
+/*--------------Section 3-----------------*/
+
+#sect3-cost{
+    width: 100%;
+    height: 800px;
+    margin-bottom: -600px;
+}
+
+#cost-serv{
+    margin-top: -360px;
+    margin-left: -90px;
+    width: 1360px;
+    height: 480px;
+    background-color: #040e23;
+}
+
+#cost-serv h1{
+    font-family: Courgette, sans-serif;
+    font-size: 38pt;
+    letter-spacing: -0.04em;
+    color: white;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 30px;
+}
+#cost-serv h2{
+    font-family: Arimo, sans-serif;
+    color: #ffffff;
+}
+#cost-serv h3{
+    font-family: Arimo, sans-serif;
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+#cost-serv li{
+    list-style-type: none;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30pt;
+    color: white;
+}
+
+.img-maq{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 240px;
+}
+.img-agulha{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 420px;
+}
+.img-ziper{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 18px;
+}
+.img-fita{
+    position: absolute;
+    margin-top: 226px;
+    margin-left: 200px;
+}
+
+/*--------------Section 4-----------------*/
+
+#sect4-info{
+    width: 700px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.38);
+    margin-top: 60px;
+    margin-left: 320px;
+    margin-bottom: 200px;
+    border-radius: 1%;
+}
+#sect4-info h1{
+    font-family: Courgette, sans-serif;
+    font-size: 34pt;
+    letter-spacing: -0.04em;
+    color: #fdfdff;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 30px;
+    width: 450px;
+    position: absolute;
+    margin-left: 40px;
+}
+#info-list{
+    position: absolute;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30pt;
+    color: #080a20;
+    width: 700px;
+    margin-left: -600px;
+    margin-top: 100px;
+
+
+}
+/*--------------Footer-----------------*/
+
+footer{
+    background: #000000;
+    padding: 30px 0px 10px 0px;
+    position: relative;
+
+}
+
+.rede-social-insta{
+    float: right;
+    background: none;
+    margin: 4px;
+    padding: 4px;
+}
+
+.rede-social-fb{
+    float: right;
+    background: none;
+    margin: 4px;
+    padding: 4px;
+}
+.copy{
+    padding-top: 34px;
+    font-size: 10pt;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+/*----------------------------- Medias Queries -----------------------------*/
+
+/*-------------- Notação XS (< 768px) -----------------*/
+
+@media screen and (max-width: 768px){
+
+    .img-logo{
+        width: 180px;
+        height: 80px;
+    }
+
+/*--------------Sectio 1-----------------*/
+
+#sec1-serv{
+    width: 100%;
+    height: 800px;
+}
+
+#higi-serv{
+    margin-top: 100px;
+    margin-left: -90px;
+    width: 500px;
+    height: 480px;
+    background-color: #040e23;
+}
+
+#higi-serv h1{
+    font-family: Courgette, sans-serif;
+    font-size: 28pt;
+    letter-spacing: -0.04em;
+    color: white;
+    width: 300px;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 30px;
+    margin-left: 66px;
+}
+
+#higi-serv a{
+    list-style-type: none;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 26pt;
+    width: 600px;
+    margin-left: 24px;
+    color: white;
+    border: 1px solid red;
+}
+    .lista-secao-bebe{
+        color: #040e23;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 20pt;
+        font-weight: bold;
+        width: 300px;
+    }
+
+.alt-sec1{
+    margin-left: 24px;
+    width: 300px;
+} /* Width do <li> Capacete/Cortinas */
+
+.lista{
+    color: #040e23;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+/*--------------Section 2-----------------*/
+
+#sect2-serv{
+    width: 100%;
+    height: 800px;
+}
+
+#pass-serv{
+    margin-top: -130px;
+    margin-left: -90px;
+    width: 450px;
+    height: 480px;
+    background-color: #040e23;
+}
+
+#pass-serv h1{
+    font-family: Courgette, sans-serif;
+    font-size: 28pt;
+    letter-spacing: -0.04em;
+    color: white;
+    width: 300px;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 30px;
+    margin-left: 66px;
+}
+#pass-serv h2{
+    font-family: Roboto Thin, sans-serif;
+    color: #ffffff;
+    font-size: 18pt;
+    width: 300px;
+    margin-left: 66px;
+}
+
+#pass-serv li{
+    list-style-type: none;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 24pt;
+    color: white;
+    margin-left: 28px;
+}
+
+.ul2-serv{
+    position: absolute;
+    margin-top: -146px;
+    margin-left: 120px;
+}
+
+/*--------------Section 3-----------------*/
+
+#sect3-cost{
+    width: 100%;
+    height: 800px;
+    margin-bottom: -600px;
+}
+
+#cost-serv{
+    margin-top: -360px;
+    margin-left: -90px;
+    width: 450px;
+    height: 480px;
+    background-color: #040e23;
+}
+
+#cost-serv h1{
+    font-family: Courgette, sans-serif;
+    font-size: 28pt;
+    width: 300px;
+    letter-spacing: -0.04em;
+    color: white;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 40px;
+    margin-left: 66px;
+}
+#cost-serv h2{
+    font-family: "Roboto Thin", sans-serif;
+    color: #ffffff;
+    width: 300px;
+    font-size: 18pt;
+    margin-left: 66px;
+    margin-bottom: 30px;
+}
+#cost-serv li{
+    list-style-type: none;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 24pt;
+    width: 300px;
+    margin-left: 40px;
+    color: white;
+}
+
+#cost-serv h3{
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 18pt;
+    color: #ffffff;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 66px;
+}
+
+/*--------------Section 4-----------------*/
+
+#sect4-info{
+    width: 330px;
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.38);
+    margin-top: 60px;
+    margin-left: 4px;
+    margin-bottom: 200px;
+    border-radius: 1%;
+}
+
+#sect4-info h1{
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 24pt;
+    letter-spacing: -0.04em;
+    color: #fdfdff;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 30px;
+    width: 330px;
+    position: absolute;
+    margin-left: -10px;
+}
+
+#info-list{
+    position: absolute;
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 18pt;
+    color: #080a20;
+    width: 330px;
+    margin: 6px;
+    margin-left: -210px;
+    margin-top: 80px;
+}
+}
+
+/*-------------- Notação SM (> 768px) -----------------*/
+
+@media screen and (min-width: 768px){
+
+    .img-logo{
+        width: 180px;
+        height: 80px;
+    }
+
+    /*--------------Sectio 1-----------------*/
+
+    #sec1-serv{
+        width: 100%;
+        height: 800px;
+    }
+
+    #higi-serv{
+        margin-top: 200px;
+        margin-left: -90px;
+        width: 900px;
+        height: 480px;
+        background-color: #040e23;
+    }
+
+    #higi-serv h1{
+        font-family: Courgette, sans-serif;
+        font-size: 28pt;
+        letter-spacing: -0.04em;
+        color: white;
+        width: 300px;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 30px;
+        margin-left: 66px;
+    }
+
+    #higi-serv a { /* li */
+        list-style-type: none;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 24pt;
+        width: 300px;
+        margin-left: 12px;
+        color: white;
+    }
+
+    .alt-sec1{
+        margin-left: 24px;
+    } /* Width do <li> Capacete/Cortinas */
+
+    .lista{
+        color: #040e23;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 22pt;
+        font-weight: bold;
+    }
+
+    /*--------------Section 2-----------------*/
+
+    #sect2-serv{
+        width: 100%;
+        height: 800px;
+    }
+
+    #pass-serv{
+        margin-top: -30px;
+        margin-left: -90px;
+        width: 900px;
+        height: 480px;
+        background-color: #040e23;
+    }
+
+    #pass-serv h1{
+        font-family: Courgette, sans-serif;
+        font-size: 28pt;
+        letter-spacing: -0.04em;
+        color: white;
+        width: 300px;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 30px;
+        margin-left: 66px;
+    }
+    #pass-serv h2{
+        font-family: Roboto Thin, sans-serif;
+        color: #ffffff;
+        font-size: 18pt;
+        width: 300px;
+        margin-left: 66px;
+    }
+
+    #pass-serv /* li */ {
+        list-style-type: none;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 24pt;
+        color: white;
+        margin-left: 28px;
+    }
+
+    .ul2-serv{
+        position: absolute;
+        margin-top: -146px;
+        margin-left: 120px;
+    }
+
+    /*--------------Section 3-----------------*/
+
+    #sect3-cost{
+        width: 100%;
+        height: 800px;
+        margin-bottom: -600px;
+    }
+
+    #cost-serv{
+        margin-top: -280px;
+        margin-left: -90px;
+        width: 900px;
+        height: 480px;
+        background-color: #040e23;
+    }
+
+    #cost-serv h1{
+        font-family: Courgette, sans-serif;
+        font-size: 28pt;
+        width: 300px;
+        letter-spacing: -0.04em;
+        color: white;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 40px;
+        margin-left: 66px;
+    }
+    #cost-serv h2{
+        font-family: "Roboto Thin", sans-serif;
+        color: #ffffff;
+        width: 300px;
+        font-size: 18pt;
+        margin-left: 66px;
+        margin-bottom: 30px;
+    }
+    #cost-serv /* li */ {
+        list-style-type: none;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 24pt;
+        width: 300px;
+        margin-left: 40px;
+        color: white;
+    }
+
+    #cost-serv h3{
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 18pt;
+        color: #ffffff;
+        width: 300px;
+        margin-top: 60px;
+        margin-left: 66px;
+    }
+
+    /*--------------Section 4-----------------*/
+
+    #sect4-info{
+        width: 500px;
+        height: 310px;
+        background-color: rgba(0, 0, 0, 0.38);
+        margin-top: 60px;
+        margin-left: 170px;
+        margin-bottom: 200px;
+        border-radius: 1%;
+    }
+
+    #sect4-info h1{
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 24pt;
+        letter-spacing: -0.04em;
+        color: #fdfdff;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 30px;
+        width: 330px;
+        position: absolute;
+        margin-left: -10px;
+    }
+
+    #info-list{
+        position: absolute;
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 20pt;
+        color: #080a20;
+        width: 330px;
+        margin: 6px;
+        margin-left: -400px;
+        margin-top: 80px;
+    }
+
+    /*--------------Footer-----------------*/
+
+    .rede-social-insta{
+        float: right;
+        background: none;
+        margin: 4px;
+        padding: 4px;
+        width: 100px;
+        position: absolute;
+        margin-top: -100px;
+    }
+
+    .rede-social-fb{
+        float: right;
+        background: none;
+        margin: 40px;
+        padding: 4px;
+        width: 80px;
+        position: absolute;
+        margin-top: -100px;
+
+    }
+}
+
+/*-------------- Notação MD (> 992px) -----------------*/
+
+@media screen and (min-width: 992px){
+
+    .img-logo{
+        width: 211px;
+        height: 80px;
+    }
+
+    /*--------------Sectio 1-----------------*/
+
+    #sec1-serv{
+        width: 100%;
+        height: 800px;
+    }
+
+    #higi-serv{
+        margin-top: 200px;
+        margin-left: -90px;
+        width: 1150px;
+        height: 480px;
+        background-color: #040e23;
+    }
+
+    #higi-serv h1{
+        font-family: Courgette, sans-serif;
+        font-size: 30pt;
+        letter-spacing: -0.04em;
+        color: white;
+        width: 500px;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 30px;
+        margin-left: -1px;
+    }
+
+    .alt{
+        width: 340px;
+    }
+
+    #higi-serv a{
+        list-style-type: none;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 28pt;
+        width: 300px;
+        margin-left: 12px;
+        color: white;
+    }
+    .alt-sec1{
+        margin-left: 24px;
+    } /* Width do <li> Capacete/Cortinas */
+
+    .lista-secao-bebe{
+        color: #040e23;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 22pt;
+        font-weight: bold;
+        width: 300px;
+    }
+    .lista-tapetes{
+        color: #040e23;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 22pt;
+        font-weight: bold;
+        width: 240px;
+    }
+    .lista{
+        color: #040e23;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 22pt;
+        font-weight: bold;
+        width: 225px;
+    }
+
+    /*--------------Section 2-----------------*/
+
+    #sect2-serv{
+        width: 100%;
+        height: 800px;
+    }
+
+    #pass-serv{
+        margin-top: -30px;
+        margin-left: -90px;
+        width: 1150px;
+        height: 480px;
+        background-color: #040e23;
+    }
+
+    #pass-serv h1{
+        font-family: Courgette, sans-serif;
+        font-size: 28pt;
+        letter-spacing: -0.04em;
+        color: white;
+        width: 400px;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 30px;
+        margin-left: 66px;
+    }
+    #pass-serv h2{
+        font-family: Roboto Thin, sans-serif;
+        color: #ffffff;
+        font-size: 18pt;
+        width: 300px;
+        margin-left: 66px;
+    }
+
+    #pass-serv /* li */ {
+        list-style-type: none;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 24pt;
+        color: white;
+        margin-left: 28px;
+    }
+
+    .ul2-serv{
+        position: absolute;
+        margin-top: -146px;
+        margin-left: 120px;
+    }
+
+    /*--------------Section 3-----------------*/
+
+    #sect3-cost{
+        width: 100%;
+        height: 800px;
+        margin-bottom: -600px;
+    }
+
+    #cost-serv{
+        margin-top: -280px;
+        margin-left: -90px;
+        width: 1150px;
+        height: 480px;
+        background-color: #040e23;
+    }
+
+    #cost-serv h1{
+        font-family: Courgette, sans-serif;
+        font-size: 28pt;
+        width: 300px;
+        letter-spacing: -0.04em;
+        color: white;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 40px;
+        margin-left: 66px;
+    }
+    #cost-serv h2{
+        font-family: "Roboto Thin", sans-serif;
+        color: #ffffff;
+        width: 300px;
+        font-size: 18pt;
+        margin-left: 66px;
+        margin-bottom: 30px;
+    }
+    #cost-serv /* li */ {
+        list-style-type: none;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 24pt;
+        width: 300px;
+        margin-left: 40px;
+        color: white;
+    }
+
+    #cost-serv h3{
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 18pt;
+        color: #ffffff;
+        width: 300px;
+        margin-top: 60px;
+        margin-left: 66px;
+    }
+
+    /*--------------Section 4-----------------*/
+
+    #sect4-info{
+        width: 500px;
+        height: 310px;
+        background-color: rgba(0, 0, 0, 0.38);
+        margin-top: 60px;
+        margin-left: 170px;
+        margin-bottom: 200px;
+        border-radius: 1%;
+    }
+
+    #sect4-info h1{
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 24pt;
+        letter-spacing: -0.04em;
+        color: #fdfdff;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 30px;
+        width: 330px;
+        position: absolute;
+        margin-left: -10px;
+    }
+
+    #info-list{
+        position: absolute;
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 20pt;
+        color: #080a20;
+        width: 330px;
+        margin: 6px;
+        margin-left: -500px;
+        margin-top: 80px;
+    }
+
+    /*--------------Footer-----------------*/
+
+    .rede-social-insta{
+        float: right;
+        background: none;
+        margin: 4px;
+        padding: 4px;
+        width: 100px;
+        position: absolute;
+        margin-top: -100px;
+    }
+
+    .rede-social-fb{
+        float: right;
+        background: none;
+        margin: 40px;
+        padding: 4px;
+        width: 80px;
+        position: absolute;
+        margin-top: -100px;
+
+    }
+}
+
+/*-------------- Notação LG (> 1200px) -----------------*/
+
+@media screen and (min-width: 1200px){
+
+    /*-------------------------BARRA DE NAVEGAÇÃO-------------------------*/
+
+    .img-logo{
+        width: 211px;
+        height: 80px;
+    }
+
+
+    /*--------------Sectio 1-----------------*/
+
+    #sec1-serv{
+        width: 100%;
+        height: 800px;
+    }
+
+    #higi-serv{
+        margin-top: 140px;
+        margin-left: -90px;
+        width: 1360px;
+        height: 480px;
+        background-color: #040e23;
+    }
+
+    #higi-serv h1{
+
+        font-family: Courgette, sans-serif;
+        font-size: 38pt;
+        width: 600px;
+        letter-spacing: -0.04em;
+        color: white;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 30px;
+    }
+
+    #higi-serv a /* li */ {
+        list-style-type: none;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 30pt;
+        width: 400px;
+        color: white;
+    }
+
+    .alt{
+        width: 360px;
+    }
+
+    .alt-mala{
+        width: 240px;
+    }
+    .alt-tap{
+        width: 380px;
+    }
+    .alt-ten{
+        width: 240px;
+    }
+
+    .lista{
+        color: #040e23;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 26pt;
+        font-weight: bold;width: 240px;
+    }
+
+    .preco{
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: #5e5e5e;
+    }
+
+    /*--------------Section 2-----------------*/
+
+    #sect2-serv{
+        width: 100%;
+        height: 800px;
+    }
+
+    #pass-serv{
+        margin-top: -130px;
+        margin-left: -90px;
+        width: 1360px;
+        height: 480px;
+        background-color: #040e23;
+    }
+
+    #pass-serv h1{
+        font-family: Courgette, sans-serif;
+        font-size: 38pt;
+        letter-spacing: -0.04em;
+        width: 650px;
+        color: white;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    #pass-serv h2{
+        font-family: Arimo, sans-serif;
+        color: #ffffff;
+        width: 600px;
+        margin-left: 10px;
+    }
+
+    .alterando-li-sec2 {
+        list-style-type: none;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 30pt;
+        color: white;
+        width: 300px;
+    }
+
+    .ul2-serv{
+        position: absolute;
+        margin-top: -180px;
+        margin-left: 220px;
+        width: 300px;
+    }
+
+    /*--------------Section 3-----------------*/
+
+    #sect3-cost{
+        width: 100%;
+        height: 800px;
+        margin-bottom: -600px;
+    }
+
+    #cost-serv{
+        margin-top: -360px;
+        margin-left: -90px;
+        width: 1360px;
+        height: 480px;
+        background-color: #040e23;
+    }
+
+    #cost-serv h1{
+        font-family: Courgette, sans-serif;
+        font-size: 38pt;
+        letter-spacing: -0.04em;
+        width: 600px;
+        color: white;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 30px;
+        margin-left: -20px;
+    }
+    #cost-serv h2{
+        font-family: Arimo, sans-serif;
+        color: #ffffff;
+        width: 600px;
+        margin-left: -20px;
+    }
+    #cost-serv h3{
+        font-family: Arimo, sans-serif;
+        color: #ffffff;
+        margin-top: 20px;
+        width: 600px;
+        margin-left: -20px;
+    }
+
+    #cost-serv /* li */ {
+        list-style-type: none;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 30pt;
+        color: white;
+    }
+
+    /*--------------Section 4-----------------*/
+
+    #sect4-info{
+        width: 700px;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.38);
+        margin-top: 60px;
+        margin-left: 320px;
+        margin-bottom: 200px;
+        border-radius: 1%;
+    }
+    #sect4-info h1{
+        font-family: Courgette, sans-serif;
+        font-size: 34pt;
+        letter-spacing: -0.04em;
+        color: #fdfdff;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 30px;
+        width: 450px;
+        position: absolute;
+        margin-left: 40px;
+    }
+    #info-list{
+        position: absolute;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 30pt;
+        color: #080a20;
+        width: 700px;
+        margin-left: -600px;
+        margin-top: 100px;
+
+
+    }
+    /*--------------Footer-----------------*/
+
+    footer{
+        background: #000000;
+        padding: 30px 0px 10px 0px;
+        position: relative;
+
+    }
+
+    .rede-social-insta{
+        float: right;
+        background: none;
+        margin: 4px;
+        padding: 4px;
+    }
+
+    .rede-social-fb{
+        float: right;
+        background: none;
+        margin: 4px;
+        padding: 4px;
+    }
+    .copy{
+        padding-top: 34px;
+        font-size: 10pt;
+        font-family: "Comic Sans MS", sans-serif;
+    }
+
+}
+
+

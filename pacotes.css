@@ -1,0 +1,651 @@
+@charset "UTF-8";
+
+
+/*=========================LAYOUT=========================*/
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: url("imagens/backtrans.png"),
+    linear-gradient(60deg,#5397a4, #226f94);
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    overflow-x: hidden;
+}
+
+
+/*-------------------------BARRA DE NAVEGAÇÃO-------------------------*/
+
+.img-logo{
+    display: block;
+    background-image: url('imagens/logo1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 211px;
+    margin-top: -15px;
+    color: transparent;
+}
+
+nav.navbar-cor{
+    padding: 15px;
+    background: white;
+    border: none;
+}
+
+/*Cor das palavras da navbar*/
+.navbar-inverse .navbar-nav>li>a {
+    color: #12ff8d;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: rgb(73, 73, 73);
+}
+.fonts{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    font-size: 24pt;
+}
+/*--------------Section 1-----------------*/
+
+#sec1-pacs{
+    width: 100%;
+    height: 1000px;
+    background-color: #23ffc2;
+
+}
+
+#tit-pacfam h1{
+    margin-top: 160px;
+    margin-left: 340px;
+    font-family: "Roboto Thin", sans-serif;
+    letter-spacing: -0.06em;
+    font-size: 66pt;
+    color: #000000;
+    width: 600px;
+}
+
+#categoria-pacfam{
+    margin-top: 10px;
+}
+#categoria-pacfam h4{
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 38pt;
+    font-weight: bold;
+    color: black;
+}
+
+#tit-pac-uni h1{
+    margin-top: 40px;
+    margin-left: 270px;
+    font-family: "Roboto Thin", sans-serif;
+    letter-spacing: -0.06em;
+    font-size: 64pt;
+    color: #000000;
+    width: 800px;
+}
+.alt-pac-uni{
+    width: 700px;
+    margin-left: 220px;
+}
+
+#categoria-pac-uni{
+    margin-top: 20px;
+}
+#categoria-pac-uni h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 38pt;
+    font-weight: bold;
+    color: black;
+}
+
+#aviso h4{
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 68pt;
+    font-weight: bold;
+    color: #080a20;
+}
+
+#sec2-pacs{
+    width: 100%;
+    height: 700px;
+    background-color: #14ffa2;
+}
+
+
+
+#pecas-participantes li{
+    list-style-type: none;
+}
+
+#pecas-participantes ul{
+    width: 360px;
+    font-family: Roboto, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    position: absolute;
+    color: #080a20;
+    border-radius: 4%;
+}
+
+
+
+.lista1:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.lista2:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.lista3:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+/*--------------Footer-----------------*/
+
+footer{
+    background: black;
+    padding: 30px 0px 10px 0px;
+    position: relative;
+
+}
+
+.rede-social-insta{
+    float: right;
+    background: black;
+    margin: 4px;
+    padding: 4px;
+}
+
+.rede-social-fb{
+    float: right;
+    background: none;
+    margin: 4px;
+    padding: 4px;
+}
+
+/*------------------------- Media Queries -------------------------*/
+
+/*--------------Notação XS (>768)-----------------*/
+
+@media screen and (max-width: 768px){
+
+    /*----BARRA DE NAVEGAÇÃO-----*/
+
+    .img-logo{
+        display: block;
+        background-image: url('imagens/logo1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 180px;
+        margin-top: -15px;
+        color: transparent;
+    }
+
+    #barra-navegacao{
+        height: 100px;
+    }
+
+    /*--------------Section 1-----------------*/
+
+    #sec1-pacs{
+        width: 100%;
+        height: 1000px;
+        background-color: #23ffc2;
+
+    }
+
+    #tit-pacfam h1{
+        margin-top: 160px;
+        margin-left: 60px;
+        position: relative;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        letter-spacing: -0.06em;
+        font-size: 26pt;
+        color: #000000;
+        width: 300px;
+    }
+
+    #categoria-pacfam{
+        margin-top: 10px;
+    }
+
+    #categoria-pacfam h4{
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Roboto", sans-serif;
+        font-size: 18pt;
+        color: #292929;
+    }
+
+    #tit-pac-uni h1{
+        margin-top: 40px;
+        margin-left: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        letter-spacing: -0.06em;
+        font-size: 26pt;
+        color: #000000;
+        width: 380px;
+    }
+
+    #categoria-pac-uni{
+        margin-top: 20px;
+    }
+    .alt-pac-uni{
+        width: 400px;
+        margin-left: -30px;
+        position: relative;
+    }
+
+    #categoria-pac-uni h4{
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Roboto", sans-serif;
+        font-size: 18pt;
+        color: #292929;
+    }
+
+    #aviso h4{
+        text-align: center;
+        margin-top: 40px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 48pt;
+        font-weight: bold;
+        color: #080a20;
+    }
+
+    /*--------------Section 2-----------------*/
+
+    #sec2-pacs{
+        width: 100%;
+        height: 1300px;
+        background-color: #14ffa2;
+    }
+    #sub-tit h3{
+        font-family: "Amatic SC", sans-serif;
+        text-align: center;
+        font-size: 42pt;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        margin-left: 10px;
+        color: #000000;
+    }
+
+    #pecas-participantes ul{
+        width: 280px;
+        font-family: Roboto, sans-serif;
+        font-size: 14pt;
+        position: absolute;
+        color: #080a20;
+        background-color: #85ff89;
+        border-radius: 4%;
+    }
+
+    .lista1{
+        margin-left: -10px;
+    }
+    .lista2{
+        margin-top: 300px;
+        margin-left: -48px;
+        border-radius: 4%;
+    }
+    .lista3{
+        margin-left: -48px;
+        margin-top: 620px;
+        border-radius: 4%;
+    }
+
+}
+
+/*--------------Notação SM (>768)-----------------*/
+
+@media screen and (min-width: 768px){
+
+    /*--------------Section 1-----------------*/
+
+    #sec1-pacs{
+        width: 100%;
+        height: 1050px;
+        background-color: #23ffc2;
+
+    }
+
+    #tit-pacfam h1{
+        margin-top: 160px;
+        margin-left: 190px;
+        font-family: "Roboto Thin", sans-serif;
+        letter-spacing: -0.06em;
+        font-size: 52pt;
+        color: #000000;
+        width: 400px;
+    }
+
+    #categoria-pacfam{
+        margin-top: 10px;
+    }
+
+    #categoria-pacfam h4{
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40pt;
+        color: #292929;
+    }
+
+    #tit-pac-uni h1{
+        margin-top: 40px;
+        margin-left: 100px;
+        font-family: "Roboto Thin", sans-serif;
+        letter-spacing: -0.06em;
+        font-size: 52pt;
+        color: #000000;
+        width: 600px;
+    }
+    .alt-pac-uni{
+        width: 700px;
+        margin-left: 10px;
+    }
+
+    #categoria-pac-uni{
+        margin-top: 20px;
+    }
+    #categoria-pac-uni h4{
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40pt;
+        color: #292929;
+    }
+
+    #aviso h4{
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 54pt;
+        font-weight: bold;
+        color: #080a20;
+    }
+
+    /*--------------Section 2-----------------*/
+
+    #sec2-pacs{
+        width: 100%;
+        height: 1100px;
+        background-color: #14ffa2;
+    }
+    #sub-tit h3{
+        font-family: "Amatic SC", sans-serif;
+        text-align: center;
+        font-size: 48pt;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        margin-left: 10px;
+        color: #000000;
+    }
+
+    #pecas-participantes ul{
+        width: 300px;
+        font-family: Roboto, sans-serif;
+        font-size: 18pt;
+        background-color: #85ff89;
+        position: absolute;
+        color: #080a20;
+
+        border-radius: 4%;
+    }
+    .lista2{
+        margin-left: 230px;
+        border-radius: 4%;
+    }
+    .lista3{
+        margin-left: -300px;
+        margin-top: 380px;
+        border-radius: 4%;
+    }
+
+}
+
+/*--------------Notação MD (>992)-----------------*/
+
+@media screen and (min-width: 992px){
+
+    /*--------------Section 1-----------------*/
+
+    #sec1-pacs{
+        width: 100%;
+        height: 1050px;
+        background-color: #23ffc2;
+
+    }
+
+    #tit-pacfam h1{
+        margin-top: 160px;
+        margin-left: 250px;
+        font-family: "Roboto Thin", sans-serif;
+        letter-spacing: -0.06em;
+        font-size: 56pt;
+        color: #000000;
+        width: 600px;
+    }
+
+    #categoria-pacfam{
+        margin-top: 10px;
+    }
+
+    #categoria-pacfam h4{
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 42pt;
+        color: #292929;
+    }
+
+    #tit-pac-uni h1{
+        margin-top: 40px;
+        margin-left: 210px;
+        font-family: "Roboto Thin", sans-serif;
+        letter-spacing: -0.06em;
+        font-size: 56pt;
+        color: #000000;
+        width: 600px;
+    }
+    .alt-pac-uni{
+        width: 700px;
+        margin-left: 140px;
+    }
+
+    #categoria-pac-uni{
+        margin-top: 20px;
+    }
+    #categoria-pac-uni h4{
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 42pt;
+        color: #000000;
+    }
+
+    #aviso h4{
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 58pt;
+        font-weight: bold;
+        color: #080a20;
+    }
+
+    /*--------------Section 2-----------------*/
+
+    #sec2-pacs{
+        width: 100%;
+        height: 1100px;
+        background-color: #14ffa2;
+    }
+
+    #sub-tit h3{
+        font-family: "Amatic SC", sans-serif;
+        text-align: center;
+        font-size: 50pt;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        margin-left: 10px;
+        color: #000000;
+    }
+
+    #pecas-participantes ul{
+        width: 350px;
+        font-family: Roboto, sans-serif;
+        font-size: 20pt;
+        background-color: #85ff89;
+        position: absolute;
+        color: #080a20;
+        border-radius: 4%;
+    }
+    .lista1{
+        margin-left: 50px;
+    }
+    .lista2{
+        margin-left: 250px;
+        border-radius: 4%;
+    }
+    .lista3{
+        margin-left: 250px;
+        margin-top: 430px;
+        border-radius: 4%;
+    }
+
+}
+
+/*--------------Notação LG (>1200)-----------------*/
+
+@media screen and (min-width: 1200px){
+
+    /*--------------Section 1-----------------*/
+
+    #sec1-pacs{
+        width: 100%;
+        height: 1000px;
+        background-color: #23ffc2;
+
+    }
+
+    #tit-pacfam h1{
+        margin-top: 160px;
+        margin-left: 340px;
+        font-family: "Roboto Thin", sans-serif;
+        letter-spacing: -0.06em;
+        font-size: 66pt;
+        color: #000000;
+        width: 600px;
+    }
+
+    #categoria-pacfam{
+        margin-top: 10px;
+    }
+
+    #categoria-pacfam h4{
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 38pt;
+        font-weight: bold;
+        color: black;
+    }
+
+    #tit-pac-uni h1{
+        margin-top: 40px;
+        margin-left: 270px;
+        font-family: "Roboto Thin", sans-serif;
+        letter-spacing: -0.06em;
+        font-size: 64pt;
+        color: #000000;
+        width: 800px;
+    }
+
+    .alt-pac-uni{
+        width: 700px;
+        margin-left: 220px;
+    }
+
+    #categoria-pac-uni{
+        margin-top: 20px;
+    }
+
+    #categoria-pac-uni h4{
+        text-align: center;
+        margin-top: 10px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 38pt;
+        font-weight: bold;
+        color: black;
+    }
+
+    #aviso h4{
+        text-align: center;
+        margin-top: 40px;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 68pt;
+        font-weight: bold;
+        color: #080a20;
+    }
+
+    /*--------------Section 2-----------------*/
+
+    #sec2-pacs{
+        width: 100%;
+        height: 700px;
+        background-color: #14ffa2;
+    }
+
+    #sub-tit h3{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 48pt;
+        margin-top: 60px;
+        margin-bottom: 80px;
+        margin-left: -10px;
+        color: #000000;
+    }
+
+    #pecas-participantes li{
+        list-style-type: none;
+    }
+
+    #pecas-participantes ul{
+        width: 360px;
+        font-family: Roboto, sans-serif;
+        font-size: 20pt;
+        font-weight: bold;
+        position: absolute;
+        color: #080a20;
+
+        border-radius: 4%;
+    }
+
+    .lista1{
+        margin-left: -30px;
+    }
+    .lista2{
+        margin-left: 210px;
+        border-radius: 4%;
+    }
+
+    .lista3{
+        margin-top: -1px;
+        margin-left: 780px;
+        border-radius: 4%;
+    }
+
+}

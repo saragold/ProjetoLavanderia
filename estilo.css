@@ -1,0 +1,1082 @@
+@charset "UTF-8";
+
+
+/*=========================LAYOUT=========================*/
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: url("imagens/backtrans.png"),
+    linear-gradient(60deg,#5397a4, #226f94);
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    overflow-x: hidden;
+}
+
+
+/*-------------------------BARRA DE NAVEGAÇÃO-------------------------*/
+
+.img-logo{
+    display: block;
+    background-image: url('imagens/logo1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height  media queries */
+    /* width  media queries */
+    margin-top: -15px;
+    color: transparent;
+}
+
+nav.navbar-transparente{
+    padding: 15px;
+    background: rgba(0, 0, 0, .9);
+    border: none;
+}
+
+/*Cor das palavras da navbar*/
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: rgb(11, 253, 255);
+}
+.fonts{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+/*-------------Section 1-------------------*/
+
+#sec1{
+    margin-top: 300px;
+   /* width:  media queries */
+   /* height media queries */
+}
+
+.carrosel{
+    /* padding-top media queries */
+    /* padding-bottom: media queries */
+    /* position: media queries */
+    /* margin-top media queries */
+    /* margin-bottom media queries */
+    /* margin-left media queries */
+    /* width:  media queries */
+    /* height media queries */
+
+}
+
+#sejam-bem-carrosel{
+    /* width:  media queries */
+    /* height media queries */
+    background: none;
+}
+
+#sejam-bem-carrosel h1{
+    /*  media queries*/
+}
+#sejam-bem-carrosel h2{
+    /* media queries */
+}
+
+#estacionamento{
+    /* width:  media queries */
+    /* height media queries */
+    background: none;
+}
+
+#estacionamento h1{
+   /*  media queries*/
+}
+#estacionamento h2{
+    /*  media queries*/
+}
+
+#pacotes{
+    /* width:  media queries */
+    /* height media queries */
+    background: none;
+}
+
+#pacotes h1{
+
+    /* media queries */
+}
+#pacotes h2{
+
+    /* media queries */
+}
+
+#pacotes-uni{
+    /* width:  media queries */
+    /* height media queries */
+    background: none;
+}
+
+#pacotes-uni h1{
+    /* media queries */
+}
+
+/*------------BOTÕES------------------*/
+
+/* media queries */
+
+/*-----------------Section 2--------------*/
+
+#sec2{
+    /*  media queries */
+
+}
+
+#servico-anuncio{
+    /* media queries */
+}
+
+#servico-anuncio h1{
+    /* media queries */
+}
+#servico-anuncio h2{
+    /* media queries */
+}
+
+.btn-servico-anuncio{
+    background-color: #080a20;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    position: absolute;
+    transition: background 0.5s, color 0.5s;
+    padding: 6px;
+    /* margin-left: media queries*/
+    color: #ffffff;
+    font-family: "Amatic SC", sans-serif;
+    margin-top: 2px;
+    /*width: media queries*/
+}
+
+#tabela-valores-anuncio{
+    /* width:  media queries */
+    /* height media queries */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4%;
+
+}
+
+#tabela-valores-anuncio h1{
+    /* media queries */
+}
+#tabela-valores-anuncio h2{
+    /*media queries */
+}
+
+.btn-tabela-anuncio{
+    background-color: #080a20;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    position: absolute;
+    transition: background 0.5s, color 0.5s;
+    padding: 6px;
+    /*margin-left: media queries*/
+    color: #ffffff;
+    font-family: "Amatic SC", sans-serif;
+    margin-top: 2px;
+
+}
+
+/*------------Sectio 3 Quem Somos-----------------*/
+
+#sec3{
+    /* width:  media queries */
+    /* height media queries */
+    background-color: #080a20;
+    margin-bottom: 50px;
+}
+#quem-somos h1{
+    font-family: Pacifico, sans-serif;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+/*------------BOTÕES------------------*/
+
+.btn-custom{
+    background-color: #080a20;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    width: 300px;
+    position: absolute;
+    transition: background 0.5s, color 0.5s;
+    padding: 6px;
+    margin-top: 30px;
+    margin-left: 400px;
+    color: #ffffff;
+    font-family: Courgette, sans-serif;
+    font-size: 28pt;
+}
+
+/*--------------Footer-----------------*/
+
+footer{
+    background: black;
+    padding: 30px 0px 10px 0px;
+    position: relative;
+
+}
+
+.rede-social-insta{
+    float: right;
+    background: black;
+    margin: 4px;
+    padding: 4px;
+}
+.rede-social-fb{
+    float: right;
+    background: none;
+    margin: 4px;
+    padding: 4px;
+}
+.copy{
+    padding-top: 34px;
+    font-size: 10pt;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+/*---------------------------- Media Queries ----------------------------*/
+
+/*-------------------- Notação XS (<768px) --------------------*/
+
+@media screen and (max-width: 768px){
+
+    /*-- tam img-logo --*/
+    .img-logo{
+        height: 60px;
+        width: 170px;
+    }
+
+    /*-- Carrosel e contéudo --*/
+    #sec1{
+        width: 600px;
+        height: 500px;
+    }
+
+    .carrosel{
+        padding-top: 10px;
+        padding-bottom: 40px;
+        position: relative;
+        margin-top: -230px;
+        margin-bottom: -80px;
+        margin-left: -320px;
+        height: 620px;
+        width: 430px;
+
+    }
+
+    #sejam-bem-carrosel{
+        height: 300px;
+    }
+
+    #sejam-bem-carrosel h1{
+        font-size: 34pt;
+        line-height: 1.15;
+        margin-top: 100px;
+        margin-left: 50px;
+        font-family: "Dancing Script", sans-serif;
+        font-weight: 600;
+        color: white;
+    }
+    #sejam-bem-carrosel h2{
+        font-family: Roboto, sans-serif;
+        font-size: 14pt;
+        color: #080a20;
+        margin-left: 10px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    #estacionamento{
+        height: 260px;
+    }
+
+    #estacionamento h1{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 44pt;
+        line-height: 1.15;
+        margin-top: 60px;
+        margin-left: 50px;
+        color: white;
+    }
+    #estacionamento h2{
+        font-family: Pacifico, sans-serif;
+        font-size: 18pt;
+        color: #080a20;
+        margin-left: 80px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    #pacotes{
+        height: 260px;
+    }
+
+    #pacotes h1{
+        font-size: 30pt;
+        margin-top: 60px;
+        margin-left: 60px;
+        font-family: "Amatic SC", sans-serif;
+        color: #080a20;
+    }
+    #pacotes h2{
+        font-size: 30pt;
+        margin-top: 20px;
+        margin-left: 110px;
+        font-family: "Amatic SC", sans-serif;
+        color: #080a20;
+    }
+
+    #pacotes-uni{
+        height: 260px;
+    }
+
+    #pacotes-uni h1{
+        text-align: left;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 28pt;
+        margin-top: 60px;
+        margin-left: 10px;
+        color: #080a20;
+    }
+
+    /*------------BOTÕES------------------*/
+
+    .btn-custom{
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 100px;
+        font-family: Arimo, sans-serif;
+        font-size: 14pt;
+    }
+
+    /*-----------------Section 2--------------*/
+
+    #sec2{
+        height: 900px;
+        margin-top: -430px;
+    }
+
+    #servico-anuncio{
+        width: 310px;
+        height: 330px;
+        margin-top: 100px;
+        margin-left: 30px;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4%;
+    }
+
+    #servico-anuncio h1{
+        font-size: 32pt;
+        text-align: center;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: bold;
+        color: #080a20;
+    }
+    #servico-anuncio h2{
+        font-size: 14pt;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: #343434;
+        border-top: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+    }
+
+
+    .btn-servico-anuncio{
+        margin-left: 40px;
+        width: 200px;
+        font-size: 22pt;
+    }
+
+    #tabela-valores-anuncio{
+        width: 310px;
+        height: 340px;
+        margin-top: 460px;
+        margin-left: 30px;
+    }
+
+    #tabela-valores-anuncio h1{
+        font-size: 32pt;
+        text-align: center;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: bold;
+        color: #080a20;
+    }
+    #tabela-valores-anuncio h2{
+        font-size: 14pt;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: #343434;
+        border-top: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+    }
+
+    .btn-tabela-anuncio{
+        margin-left: 40px;
+        margin-top: 2px;
+        width: 200px;
+        font-size: 22pt;
+    }
+
+    /*------------Sectio 3 Quem Somos-----------------*/
+
+    #sec3{
+        height: 400px;
+        margin-bottom: 40px;
+    }
+    #quem-somos h1{
+        font-family: "Amatic SC", sans-serif;
+    }
+}
+
+/*-------------------- Notação SM (>768px) --------------------*/
+
+@media screen and (min-width: 768px){
+
+    /*-- tam img-logo --*/
+    .img-logo{
+        height: 60px;
+        width: 200px;
+    }
+
+    /*-- Carrosel e contéudo --*/
+    #sec1{
+        width: 800px;
+        height: 500px;
+    }
+
+    .carrosel{
+        padding-top: 10px;
+        padding-bottom: 40px;
+        position: relative;
+        margin-top: -230px;
+        margin-bottom: -80px;
+        margin-left: -540px;
+        height: 620px;
+        width: 800px;
+
+    }
+
+    #sejam-bem-carrosel{
+        height: 400px;
+    }
+
+    #sejam-bem-carrosel h1{
+        font-size: 65pt;
+        line-height: 1.15;
+        margin-top: 120px;
+        margin-left: 50px;
+        font-family: "Dancing Script", sans-serif;
+        font-weight: 600;
+        color: white;
+    }
+    #sejam-bem-carrosel h2{
+        font-family: Roboto, sans-serif;
+        font-size: 17pt;
+        margin-left: 40px;
+        margin-top: 40px;
+        position: relative;
+        line-height: 1.15;
+        color: #080a20;
+    }
+
+    #estacionamento{
+        height: 400px;
+    }
+
+    #estacionamento h1{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 80pt;
+        line-height: 1.15;
+        margin-top: 60px;
+        margin-left: 80px;
+        color: white;
+    }
+    #estacionamento h2{
+        font-family: Pacifico, sans-serif;
+        font-size: 26pt;
+        margin-left: 170px;
+        margin-top: 10px;
+        position: relative;
+        color: #080a20;
+    }
+
+    #pacotes{
+        height: 400px;
+    }
+
+    #pacotes h1{
+        font-size: 60pt;
+        margin-top: 60px;
+        margin-left: 60px;
+        font-family: "Amatic SC", sans-serif;
+        color: #080a20;
+    }
+    #pacotes h2{
+        font-size: 60pt;
+        margin-top: 20px;
+        margin-left: 190px;
+        font-family: "Amatic SC", sans-serif;
+        color: #080a20;
+    }
+
+    #pacotes-uni{
+        height: 400px;
+    }
+
+    #pacotes-uni h1{
+        text-align: left;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 50pt;
+        margin-top: 60px;
+        margin-left: 10px;
+        color: #080a20;
+    }
+
+    /*------------BOTÕES------------------*/
+
+    .btn-custom{
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 200px;
+        font-family: Arimo, sans-serif;
+        font-size: 18pt;
+    }
+
+    /*-----------------Section 2--------------*/
+
+    #sec2{
+        height: 600px;
+        margin-top: -240px;
+    }
+
+    #servico-anuncio{
+        width: 310px;
+        height: 330px;
+        margin-top: 100px;
+        margin-left: 30px;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4%;
+    }
+
+    #servico-anuncio h1{
+        font-size: 32pt;
+        text-align: center;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: bold;
+        color: #080a20;
+    }
+    #servico-anuncio h2{
+        font-size: 14pt;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: #343434;
+        border-top: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+    }
+
+
+    .btn-servico-anuncio{
+        margin-left: 40px;
+        width: 200px;
+        font-size: 22pt;
+    }
+
+    #tabela-valores-anuncio{
+        width: 310px;
+        height: 330px;
+        margin-top: 100px;
+        margin-left: 400px;
+    }
+
+    #tabela-valores-anuncio h1{
+        font-size: 32pt;
+        text-align: center;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: bold;
+        color: #080a20;
+    }
+    #tabela-valores-anuncio h2{
+        font-size: 14pt;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: #343434;
+        border-top: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+    }
+
+    .btn-tabela-anuncio{
+        margin-left: 40px;
+        margin-top: 2px;
+        width: 200px;
+        font-size: 22pt;
+    }
+
+    /*------------Sectio 3 Quem Somos-----------------*/
+
+    #sec3{
+        height: 400px;
+        width: 778px;
+        margin-bottom: 40px;
+    }
+    #quem-somos h1{
+        font-family: "Amatic SC", sans-serif;
+    }
+
+    .img-lav-1{
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 180px;
+    }
+    .img-lav-3{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 180px;
+    }
+}
+
+/*-------------------- Notação MD (> 992px) --------------------*/
+
+@media screen and (min-width: 992px){
+
+    /*-- tam img-logo --*/
+    .img-logo{
+        height: 60px;
+        width: 211px;
+    }
+
+    /*-- Carrosel e contéudo --*/
+    #sec1{
+        display: block;
+        width: 900px;
+        height: 600px;
+    }
+
+    .carrosel{
+        padding-top: 10px;
+        padding-bottom: 40px;
+        position: relative;
+        margin-top: -230px;
+        margin-bottom: -80px;
+        margin-left: -988px;
+        height: 640px;
+        width: 1020px;
+
+    }
+
+    #sejam-bem-carrosel{
+        height: 460px;
+    }
+
+    #sejam-bem-carrosel h1{
+        font-size: 84pt;
+        line-height: 1.15;
+        margin-top: 120px;
+        margin-left: 65px;
+    }
+    #sejam-bem-carrosel h2{
+        font-family: Roboto, sans-serif;
+        font-size: 20pt;
+        margin-left: 85px;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    #estacionamento{
+        height: 460px;
+    }
+
+    #estacionamento h1{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 90pt;
+        line-height: 1.15;
+        margin-top: 60px;
+        margin-left: 160px;
+    }
+    #estacionamento h2{
+        font-family: Pacifico, sans-serif;
+        font-size: 30pt;
+        margin-left: 260px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    #pacotes{
+        height: 460px;
+    }
+
+    #pacotes h1{
+        font-size: 75pt;
+        margin-top: 70px;
+        margin-left: 90px;
+    }
+    #pacotes h2{
+        font-size: 75pt;
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+
+    #pacotes-uni{
+        height: 460px;
+    }
+
+    #pacotes-uni h1{
+        text-align: left;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 60pt;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+
+    /*------------BOTÕES------------------*/
+
+    .btn-custom{
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 300px;
+        font-family: Arimo, sans-serif;
+        font-size: 18pt;
+    }
+
+    /*-----------------Section 2--------------*/
+
+    #sec2{
+        height: 600px;
+        margin-top: -300px;
+    }
+
+    #servico-anuncio{
+        width: 350px;
+        height: 370px;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    #servico-anuncio h1{
+        font-size: 35pt;
+    }
+    #servico-anuncio h2{
+        font-size: 16pt;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .btn-servico-anuncio{
+        margin-left: 58px;
+    }
+
+    #tabela-valores-anuncio{
+        width: 350px;
+        height: 370px;
+        margin-top: 100px;
+        margin-left: 530px;
+    }
+
+    #tabela-valores-anuncio h1{
+        font-size: 35pt;
+    }
+    #tabela-valores-anuncio h2{
+        font-size: 16pt;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .btn-tabela-anuncio{
+        margin-left: 58px;
+        margin-top: 2px;
+    }
+
+    /*------------Sectio 3 Quem Somos-----------------*/
+
+    #sec3{
+        height: 440px;
+        width: 1010px;
+        margin-bottom: 40px;
+    }
+    #quem-somos h1{
+        font-family: "Amatic SC", sans-serif;
+    }
+
+    .img-lav-1{
+        margin-top: 20px;
+        margin-left: 50px;
+        width: 180px;
+    }
+    .img-lav-2{
+        margin-left: 270px;
+        margin-top: -180px;
+        width: 180px;
+    }
+    .img-lav-3{
+        width: 180px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .img-lav-4{
+        margin-left: 270px;
+        margin-top: -180px;
+        width: 180px;
+    }
+}
+
+/*-------------------- Notação LG (> 1200px) --------------------*/
+
+@media screen and (min-width: 1200px){
+
+    /*-- tam img-logo --*/
+    .img-logo{
+        height: 60px;
+        width: 211px;
+    }
+
+    /*-- Carrosel e contéudo --*/
+    #sec1{
+        margin-top: 300px;
+        width: 800px;
+        height: 800px;
+    }
+
+    .carrosel{
+        padding-top: 10px;
+        padding-bottom: 40px;
+        position: relative;
+        margin-top: -230px;
+        margin-bottom: -80px;
+        margin-left: -1200px;
+        height: 620px;
+        width: 1400px;
+
+    }
+
+    #sejam-bem-carrosel{
+        height: 600px;
+    }
+
+    #sejam-bem-carrosel h1{
+        font-family: "Dancing Script", sans-serif;
+        font-size: 100pt;
+        font-weight: 600;
+        line-height: 1.15;
+        margin-top: 200px;
+        margin-left: 100px;
+        color: white;
+    }
+    #sejam-bem-carrosel h2{
+        font-family: Roboto, sans-serif;
+        position: relative;
+        font-size: 26pt;
+        line-height: 1.15;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+
+    #estacionamento{
+        height: 600px;
+    }
+
+    #estacionamento h1{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 120pt;
+        margin-top: 130px;
+        margin-left: 180px;
+        color: white;
+    }
+    #estacionamento h2{
+        font-family: Pacifico, sans-serif;
+        font-size: 40pt;
+        margin-top: 30px;
+        margin-left: 300px;
+        position: relative;
+        color: #080a20;
+    }
+
+    #pacotes{
+        height: 600px;
+    }
+
+    #pacotes h1{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 100pt;
+        margin-top: 100px;
+        margin-left: 90px;
+        color: #080a20;
+    }
+    #pacotes h2{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 100pt;
+        margin-top: 40px;
+        margin-left: 300px;
+        color: #080a20;
+    }
+
+    #pacotes-uni{
+        height: 600px;
+    }
+
+    #pacotes-uni h1{
+        text-align: left;
+        font-family: "Amatic SC", sans-serif;
+        font-size: 80pt;
+        margin-top: 100px;
+        margin-left: -20px;
+        color: #080a20;
+    }
+
+    /*------------BOTÕES------------------*/
+
+    .btn-custom{
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 400px;
+        font-family: Arimo, sans-serif;
+        font-size: 18pt;
+    }
+
+    /*-----------------Section 2--------------*/
+
+    #sec2{
+        width: 100%;
+        height: 600px;
+        margin-top: -360px;
+    }
+
+    #servico-anuncio{
+        width: 350px;
+        height: 370px;
+        margin-top: 100px;
+        margin-left: 150px;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4%;
+    }
+
+    #servico-anuncio h1{
+        text-align: center;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: bold;
+        color: #080a20;
+        font-size: 35pt;
+    }
+    #servico-anuncio h2{
+        font-size: 16pt;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: #343434;
+        border-top: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+    }
+
+
+    .btn-servico-anuncio{
+        margin-left: 58px;
+        width: 200px;
+        font-size: 22pt;
+    }
+
+    #tabela-valores-anuncio{
+        width: 350px;
+        height: 370px;
+        margin-top: 100px;
+        margin-left: 650px;
+    }
+
+    #tabela-valores-anuncio h1{
+        text-align: center;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: bold;
+        color: #080a20;
+        font-size: 35pt;
+    }
+    #tabela-valores-anuncio h2{
+        font-size: 16pt;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: #343434;
+        border-top: 1px solid #cecece;
+        border-bottom: 1px solid #cecece;
+    }
+
+    .btn-tabela-anuncio{
+        margin-left: 58px;
+        width: 200px;
+        font-size: 22pt;
+    }
+
+    /*------------Sectio 3 Quem Somos-----------------*/
+
+    #sec3{
+        height: 500px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #quem-somos h1{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 36pt;
+    }
+
+    #quem-somos img{
+        position: absolute;
+    }
+
+    .img-lav-1{
+        margin-top: 40px;
+        margin-left: 110px;
+    }
+    .img-lav-2{
+        margin-left: 340px;
+        margin-top: -180px;
+    }
+    .img-lav-3{
+        margin-top: 40px;
+        margin-left: 110px;
+    }
+    .img-lav-4{
+        margin-left: 340px;
+        margin-top: -180px;
+    }
+}

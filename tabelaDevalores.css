@@ -1,0 +1,881 @@
+@charset "UTF-8";
+
+
+/*=========================LAYOUT=========================*/
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: url("imagens/backtrans.png"),
+    linear-gradient(60deg,#5397a4, #226f94);
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    overflow-x: hidden;
+}
+
+
+/*-------------------------BARRA DE NAVEGAÇÃO-------------------------*/
+
+.img-logo{
+    display: block;
+    background-image: url('imagens/logo1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 211px;
+    margin-top: -15px;
+    color: transparent;
+}
+
+nav.navbar-color{
+    padding: 15px;
+    background-color: #ffffff;
+    border: none;
+}
+
+/*Cor das palavras da navbar*/
+.navbar-inverse .navbar-nav>li>a {
+    color: #080a20;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: rgb(52, 236, 255);
+}
+.fonts{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    font-size: 24pt;
+}
+/*-------------Section 1-------------*/
+
+
+
+
+#titulo-header span{
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    letter-spacing: normal;
+    color: #b2b2b2;
+}
+
+
+#tabela-de-servicos th{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+#tabela-de-servicos tr{
+    border-bottom: 1px solid #cecece;
+}
+#tabela-de-servicos td{
+    border-left: 1px solid #cecece;
+    padding: 3px;
+}
+
+
+#tabela-de-servicos2 th{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+#tabela-de-servicos2 tr{
+    border-bottom: 1px solid #cecece;
+}
+#tabela-de-servicos2 td{
+    border-left: 1px solid #cecece;
+    padding: 3px;
+}
+
+/*--------------Section 2 Cont Tabela-----------------*/
+
+
+
+#tabela-de-servicos3 th{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+#tabela-de-servicos3 tr{
+    border-bottom: 1px solid #ffffff;
+}
+#tabela-de-servicos3 td{
+    border-left: 1px solid #ffffff;
+    padding: 3px;
+}
+
+
+#tabela-de-servicos4 th{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+#tabela-de-servicos4 tr{
+    border-bottom: 1px solid #cecece;
+}
+#tabela-de-servicos4 td{
+    border-left: 1px solid #cecece;
+    padding: 3px;
+}
+
+.sob-consulta{
+    background-color: black;
+}
+.sob-consulta:hover{
+    background-color: rgb(52, 236, 255);
+    color: #000000;
+}
+
+
+.att-tabela:hover{
+    color: white;
+}
+
+/*--------------Section 3-----------------*/
+
+
+
+#tab-valores h1{
+    font-family: Courgette, sans-serif;
+    font-size: 35pt;
+    border-bottom: 1px solid #5e5e5e;
+    letter-spacing: -0.06em;
+    font-weight: 600;
+    color: rgb(5, 6, 41);
+    margin-top: 40px;
+    margin-left: 400px;
+    width: 500px;
+}
+#tab-valores h2{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 40pt;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+#tab-valores h3{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 40pt;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.desconto{
+    font-family: Courgette, sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    color: #5e5e5e;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -6px;
+
+}
+
+
+
+/*--------------Footer-----------------*/
+
+footer{
+    background: #000000;
+    padding: 30px 0px 10px 0px;
+    position: relative;
+
+}
+
+.rede-social-insta{
+    float: right;
+    background: none;
+    margin: 4px;
+    padding: 4px;
+}
+
+.rede-social-fb{
+    float: right;
+    background: none;
+    margin: 4px;
+    padding: 4px;
+}
+.copy{
+    padding-top: 34px;
+    font-size: 10pt;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+/*-------------------- Medias Queries---------------------*/
+
+/*------------------- Notação XS (<768)------------------*/
+
+@media screen and (max-width: 768px){
+
+    /*-------------Section 1-------------*/
+
+    #sec1-tabela{
+        width: 100%;
+        height: 1650px;
+        background-color: #000000;
+    }
+
+    #titulo-header{
+        font-family: Courgette, sans-serif;
+        font-size: 38pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.04em;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-bottom: -40px;
+        color: white;
+    }
+    #titulo-header span{
+        font-family: Arial, sans-serif;
+        font-size: 14pt;
+        letter-spacing: normal;
+        color: #b2b2b2;
+    }
+
+    #tabela-de-servicos{
+        width: 300px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-left: -10px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+
+    #tabela-de-servicos2{
+        width: 300px;
+        margin-top: 900px;
+        margin-left: -180px;
+        margin-bottom: 100px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    /*--------------Section 2 Cont Tabela-----------------*/
+
+    #sec2-tabela{
+        width: 100%;
+        height: 2000px;
+        background-color: #000000;
+    }
+
+    #tabela-de-servicos3{
+        width: 300px;
+        margin-top: -20px;
+        margin-bottom: 10px;
+        margin-left: -10px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    #tabela-de-servicos4{
+        width: 360px;
+        margin-top: 670px;
+        margin-left: -180px;
+        margin-bottom: 100px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    /*--------------Section 3-----------------*/
+
+    #tab-valores{
+        width: 460px;
+        height: 1300px;
+        background-color: white;
+        margin-left: -10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #tab-valores h1{
+        font-family: Roboto, sans-serif;
+        font-size: 28pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.06em;
+        font-weight: 600;
+        color: rgb(5, 6, 41);
+        margin-top: 40px;
+        margin-left: -10px;
+        width: 360px;
+    }
+
+    #tab-valores h2{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40pt;
+        font-weight: bold;
+        letter-spacing: -0.04em;
+        text-align: center;
+    }
+
+    #tab-valores h3{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40pt;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 60px;
+        position: absolute;
+    }
+
+    .desconto{
+        font-family: Courgette, sans-serif;
+        font-size: 30pt;
+        font-weight: bold;
+        color: #5e5e5e;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: -6px;
+
+    }
+
+    .pag-avista8{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 160px;
+
+    }
+    .pag-card{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 460px;
+    }
+    .pag-avista{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 780px;
+    }
+
+    #cards h1{
+        font-family: Roboto, sans-serif;
+        font-size: 28pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.06em;
+        font-weight: 600;
+        color: rgb(5, 6, 41);
+        position: absolute;
+        margin-top: -250px;
+        margin-left: -10px;
+        width: 350px;
+    }
+
+    .card{
+        position: absolute;
+        margin-top: -120px;
+        margin-left: 10px;
+        width: 320px;
+    }
+
+}
+
+/*------------------- Notação SM (>768)------------------*/
+
+@media screen and (min-width: 768px){
+
+    /*-------------Section 1-------------*/
+
+    #sec1-tabela{
+        width: 100%;
+        height: 1050px;
+        background-color: #000000;
+    }
+
+    #titulo-header{
+        font-family: Courgette, sans-serif;
+        font-size: 42pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.04em;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-bottom: -40px;
+        color: white;
+    }
+
+    #tabela-de-servicos{
+        width: 400px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-left: -90px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+
+    #tabela-de-servicos2{
+        width: 460px;
+        margin-top: 80px;
+        margin-left: -10px;
+        margin-bottom: 100px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    /*--------------Section 2 Cont Tabela-----------------*/
+
+    #sec2-tabela{
+        width: 100%;
+        height: 400px;
+        background-color: #000000;
+    }
+
+    #tabela-de-servicos3{
+        width: 400px;
+        margin-top: -260px;
+        margin-bottom: 10px;
+        margin-left: -100px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    #tabela-de-servicos4{
+        width: 460px;
+        margin-top: -260px;
+        margin-left: -30px;
+        margin-bottom: 100px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    /*--------------Section 3-----------------*/
+
+    #tab-valores{
+        width: 1000px;
+        height: 800px;
+        background-color: white;
+        margin-left: -110px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #tab-valores h1{
+        font-family: Courgette, sans-serif;
+        font-size: 28pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.06em;
+        font-weight: 600;
+        color: rgb(5, 6, 41);
+        margin-top: 40px;
+        margin-left: -10px;
+        width: 500px;
+    }
+
+    #tab-valores h2{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40pt;
+        font-weight: bold;
+        letter-spacing: -0.04em;
+        text-align: center;
+    }
+
+    #tab-valores h3{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40pt;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 60px;
+        position: absolute;
+    }
+
+    .desconto{
+        font-family: Courgette, sans-serif;
+        font-size: 30pt;
+        font-weight: bold;
+        color: #5e5e5e;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: -6px;
+
+    }
+
+    .pag-avista8{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 160px;
+
+    }
+    .pag-card{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 325px;
+        margin-top: 160px;
+    }
+    .pag-avista{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 640px;
+        margin-top: 160px;
+    }
+
+    #cards h1{
+        font-family: Courgette, sans-serif;
+        font-size: 28pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.06em;
+        font-weight: 600;
+        color: rgb(5, 6, 41);
+        position: absolute;
+        margin-top: -340px;
+        margin-left: 100px;
+        width: 500px;
+    }
+
+    .card{
+        position: absolute;
+        margin-top: -220px;
+        margin-left: 150px;
+        width: 420px;
+    }
+
+}
+
+/*------------------- Notação MD (>992)------------------*/
+
+@media screen and (min-width: 992px){
+
+    /*-------------Section 1-------------*/
+
+    #sec1-tabela{
+        width: 100%;
+        height: 1050px;
+        background-color: #000000;
+    }
+
+    #titulo-header{
+        font-family: Courgette, sans-serif;
+        font-size: 45pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.04em;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-left: -60px;
+        margin-bottom: -40px;
+        color: white;
+    }
+
+    #tabela-de-servicos{
+        width: 500px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-left: -70px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+
+    #tabela-de-servicos2{
+        width: 500px;
+        margin-top: 80px;
+        margin-left: -10px;
+        margin-bottom: 100px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    /*--------------Section 2 Cont Tabela-----------------*/
+
+    #sec2-tabela{
+        width: 100%;
+        height: 400px;
+        background-color: #000000;
+    }
+
+    #tabela-de-servicos3{
+        width: 500px;
+        margin-top: -260px;
+        margin-bottom: 10px;
+        margin-left: -70px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    #tabela-de-servicos4{
+        width: 500px;
+        margin-top: -260px;
+        margin-left: -10px;
+        margin-bottom: 100px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    .att-tabela{
+        font-family: Pacifico, sans-serif;
+        font-size: 16pt;
+        color: #5e5e5e;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 800px;
+    }
+
+    /*--------------Section 3-----------------*/
+
+    #tab-valores{
+        width: 1300px;
+        height: 800px;
+        background-color: white;
+        margin-left: -80px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .pag-avista8{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 160px;
+
+    }
+    .pag-card{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 400px;
+        margin-top: 160px;
+    }
+    .pag-avista{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 740px;
+        margin-top: 160px;
+    }
+
+    #cards h1{
+        font-family: Courgette, sans-serif;
+        font-size: 28pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.06em;
+        font-weight: 600;
+        color: rgb(5, 6, 41);
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 220px;
+        width: 410px;
+    }
+
+    .card{
+        position: absolute;
+        margin-top: -220px;
+        margin-left: 220px;
+        width: 460px;
+    }
+
+}
+
+/*------------------- Notação LG (>1200)------------------*/
+
+@media screen and (min-width: 1200px){
+
+    /*-------------Section 1-------------*/
+
+    #sec1-tabela{
+        width: 100%;
+        height: 800px;
+        background-color: #000000;
+    }
+
+    #titulo-header{
+        font-family: Courgette, sans-serif;
+        font-size: 45pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.04em;
+        font-weight: 600;
+        margin-top: 100px;
+        margin-bottom: -40px;
+        color: white;
+    }
+
+    #tabela-de-servicos{
+        width: 560px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-left: -40px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    #tabela-de-servicos2{
+        width: 560px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    /*--------------Section 2 Cont Tabela-----------------*/
+
+    #sec2-tabela{
+        width: 100%;
+        height: 640px;
+        background-color: #000000;
+    }
+
+    #tabela-de-servicos3{
+        width: 560px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        margin-left: -40px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    #tabela-de-servicos4{
+        width: 560px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        font-family: Arimo, sans-serif;
+        font-size: 13pt;
+        color: white;
+    }
+
+    .att-tabela{
+        font-family: Pacifico, sans-serif;
+        font-size: 16pt;
+        color: #5e5e5e;
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 1100px;
+    }
+
+    /*--------------Section 3-----------------*/
+
+    #tab-valores{
+        width: 1400px;
+        height: 700px;
+        background-color: white;
+        margin-left: -89px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .pag-avista8{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 160px;
+
+    }
+    .pag-card{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 264px;
+        position: absolute;
+        margin-left: 490px;
+        margin-top: 160px;
+    }
+    .pag-avista{
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4%;
+        border: 1px solid #cecece;
+        margin: 5px;
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin-left: 890px;
+        margin-top: 160px;
+    }
+
+    #cards h1{
+        font-family: Courgette, sans-serif;
+        font-size: 35pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.06em;
+        font-weight: 600;
+        color: rgb(5, 6, 41);
+        position: absolute;
+        margin-top: -240px;
+        margin-left: 300px;
+        width: 550px;
+    }
+
+    .card{
+        position: absolute;
+        margin-top: -160px;
+        margin-left: 300px;
+    }
+
+}
