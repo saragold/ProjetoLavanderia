@@ -213,7 +213,8 @@ footer{
 
     #sec1-tabela{
         width: 100%;
-        height: 1650px;
+        height: 3050px;
+        margin-bottom: 1px;
         background-color: #000000;
     }
 
@@ -248,8 +249,8 @@ footer{
 
     #tabela-de-servicos2{
         width: 300px;
-        margin-top: 900px;
-        margin-left: -180px;
+        margin-top: 1500px;
+        margin-left: -190px;
         margin-bottom: 100px;
         font-family: Arimo, sans-serif;
         font-size: 13pt;
@@ -260,7 +261,7 @@ footer{
 
     #sec2-tabela{
         width: 100%;
-        height: 2000px;
+        height: 3050px;
         background-color: #000000;
     }
 
@@ -276,7 +277,7 @@ footer{
 
     #tabela-de-servicos4{
         width: 360px;
-        margin-top: 670px;
+        margin-top: 1400px;
         margin-left: -180px;
         margin-bottom: 100px;
         font-family: Arimo, sans-serif;
@@ -309,7 +310,7 @@ footer{
 
     #tab-valores h2{
         font-family: "Amatic SC", sans-serif;
-        font-size: 40pt;
+        font-size: 25pt;
         font-weight: bold;
         letter-spacing: -0.04em;
         text-align: center;
@@ -317,21 +318,21 @@ footer{
 
     #tab-valores h3{
         font-family: "Amatic SC", sans-serif;
-        font-size: 40pt;
+        font-size: 25pt;
         font-weight: bold;
-        margin-left: 30px;
+        margin-left: 40px;
         margin-top: 60px;
         position: absolute;
     }
 
     .desconto{
         font-family: Courgette, sans-serif;
-        font-size: 30pt;
+        font-size: 20pt;
         font-weight: bold;
         color: #5e5e5e;
         position: absolute;
-        margin-left: 100px;
-        margin-top: -6px;
+        margin-left: 80px;
+        margin-top: 10px;
 
     }
 
@@ -341,10 +342,10 @@ footer{
         border-radius: 4%;
         border: 1px solid #cecece;
         margin: 5px;
-        width: 300px;
-        height: 260px;
+        width: 250px;
+        height: 200px;
         position: absolute;
-        margin-left: 10px;
+        margin-left: 50px;
         margin-top: 160px;
 
     }
@@ -354,11 +355,11 @@ footer{
         border-radius: 4%;
         border: 1px solid #cecece;
         margin: 5px;
-        width: 300px;
-        height: 260px;
+        width: 250px;
+        height: 200px;
         position: absolute;
-        margin-left: 10px;
-        margin-top: 460px;
+        margin-left: 50px;
+        margin-top: 410px;
     }
     .pag-avista{
         background-color: #000000;
@@ -366,11 +367,11 @@ footer{
         border-radius: 4%;
         border: 1px solid #cecece;
         margin: 5px;
-        width: 300px;
-        height: 260px;
+        width: 250px;
+        height: 200px;
         position: absolute;
-        margin-left: 10px;
-        margin-top: 780px;
+        margin-left: 50px;
+        margin-top: 680px;
     }
 
     #cards h1{
@@ -404,6 +405,7 @@ footer{
     #sec1-tabela{
         width: 100%;
         height: 1050px;
+        margin-bottom: 1px;
         background-color: #000000;
     }
 
@@ -420,23 +422,23 @@ footer{
     }
 
     #tabela-de-servicos{
-        width: 400px;
+        width: 350px;
         margin-top: 80px;
         margin-bottom: 100px;
-        margin-left: -90px;
+        margin-left: -20px;
         font-family: Arimo, sans-serif;
-        font-size: 13pt;
+        font-size: 10pt;
         color: white;
     }
 
 
     #tabela-de-servicos2{
-        width: 460px;
+        width: 390px;
         margin-top: 80px;
-        margin-left: -10px;
+        margin-left: -20px;
         margin-bottom: 100px;
         font-family: Arimo, sans-serif;
-        font-size: 13pt;
+        font-size: 10pt;
         color: white;
     }
 
@@ -444,28 +446,37 @@ footer{
 
     #sec2-tabela{
         width: 100%;
-        height: 400px;
+        height: 1200px;
         background-color: #000000;
     }
 
     #tabela-de-servicos3{
-        width: 400px;
-        margin-top: -260px;
+        width: 390px;
+        margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: -100px;
+        margin-left: -30px;
         font-family: Arimo, sans-serif;
-        font-size: 13pt;
+        font-size: 10pt;
         color: white;
     }
 
-    #tabela-de-servicos4{
-        width: 460px;
-        margin-top: -260px;
-        margin-left: -30px;
+    #tabela-de-servicos4    {
+        width: 350px;
+        margin-top: 10px;
+        margin-left: 10px;
         margin-bottom: 100px;
         font-family: Arimo, sans-serif;
-        font-size: 13pt;
+        font-size: 10pt;
         color: white;
+    }
+
+    .att-tabela{
+        font-family: Pacifico, sans-serif;
+        font-size: 16pt;
+        color: #5e5e5e;
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 700px;
     }
 
     /*--------------Section 3-----------------*/
@@ -481,19 +492,19 @@ footer{
 
     #tab-valores h1{
         font-family: Courgette, sans-serif;
-        font-size: 28pt;
+        font-size: 25pt;
         border-bottom: 1px solid #5e5e5e;
         letter-spacing: -0.06em;
         font-weight: 600;
         color: rgb(5, 6, 41);
         margin-top: 40px;
-        margin-left: -10px;
+        margin-left: 80px;
         width: 500px;
     }
 
     #tab-valores h2{
         font-family: "Amatic SC", sans-serif;
-        font-size: 40pt;
+        font-size: 30pt;
         font-weight: bold;
         letter-spacing: -0.04em;
         text-align: center;
@@ -501,7 +512,7 @@ footer{
 
     #tab-valores h3{
         font-family: "Amatic SC", sans-serif;
-        font-size: 40pt;
+        font-size: 30pt;
         font-weight: bold;
         margin-left: 30px;
         margin-top: 60px;
@@ -510,7 +521,7 @@ footer{
 
     .desconto{
         font-family: Courgette, sans-serif;
-        font-size: 30pt;
+        font-size: 25pt;
         font-weight: bold;
         color: #5e5e5e;
         position: absolute;
@@ -525,10 +536,10 @@ footer{
         border-radius: 4%;
         border: 1px solid #cecece;
         margin: 5px;
-        width: 300px;
+        width: 240px;
         height: 260px;
         position: absolute;
-        margin-left: 10px;
+        margin-left: 80px;
         margin-top: 160px;
 
     }
@@ -538,7 +549,7 @@ footer{
         border-radius: 4%;
         border: 1px solid #cecece;
         margin: 5px;
-        width: 300px;
+        width: 260px;
         height: 260px;
         position: absolute;
         margin-left: 325px;
@@ -550,10 +561,10 @@ footer{
         border-radius: 4%;
         border: 1px solid #cecece;
         margin: 5px;
-        width: 300px;
+        width: 250px;
         height: 260px;
         position: absolute;
-        margin-left: 640px;
+        margin-left: 590px;
         margin-top: 160px;
     }
 
@@ -607,7 +618,7 @@ footer{
         width: 500px;
         margin-top: 80px;
         margin-bottom: 100px;
-        margin-left: -70px;
+        margin-left: -50px;
         font-family: Arimo, sans-serif;
         font-size: 13pt;
         color: white;
@@ -628,15 +639,15 @@ footer{
 
     #sec2-tabela{
         width: 100%;
-        height: 400px;
+        height: 1200px;
         background-color: #000000;
     }
 
     #tabela-de-servicos3{
         width: 500px;
-        margin-top: -260px;
+        margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: -70px;
+        margin-left: -50px;
         font-family: Arimo, sans-serif;
         font-size: 13pt;
         color: white;
@@ -644,7 +655,7 @@ footer{
 
     #tabela-de-servicos4{
         width: 500px;
-        margin-top: -260px;
+        margin-top: 10px;
         margin-left: -10px;
         margin-bottom: 100px;
         font-family: Arimo, sans-serif;
@@ -670,6 +681,46 @@ footer{
         margin-left: -80px;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    #tab-valores h1{
+        font-family: Courgette, sans-serif;
+        font-size: 30pt;
+        border-bottom: 1px solid #5e5e5e;
+        letter-spacing: -0.06em;
+        font-weight: 600;
+        color: rgb(5, 6, 41);
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 500px;
+    }
+
+    #tab-valores h2{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40pt;
+        font-weight: bold;
+        letter-spacing: -0.04em;
+        text-align: center;
+    }
+
+    #tab-valores h3{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 40pt;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 60px;
+        position: absolute;
+    }
+
+    .desconto{
+        font-family: Courgette, sans-serif;
+        font-size: 30pt;
+        font-weight: bold;
+        color: #5e5e5e;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: -6px;
+
     }
 
     .pag-avista8{
@@ -712,15 +763,15 @@ footer{
 
     #cards h1{
         font-family: Courgette, sans-serif;
-        font-size: 28pt;
+        font-size: 32pt;
         border-bottom: 1px solid #5e5e5e;
         letter-spacing: -0.06em;
         font-weight: 600;
         color: rgb(5, 6, 41);
         position: absolute;
         margin-top: -300px;
-        margin-left: 220px;
-        width: 410px;
+        margin-left: 210px;
+        width: 500px;
     }
 
     .card{
@@ -740,7 +791,8 @@ footer{
 
     #sec1-tabela{
         width: 100%;
-        height: 800px;
+        height: 1100px;
+        margin-bottom: 1px;
         background-color: #000000;
     }
 
@@ -778,7 +830,7 @@ footer{
 
     #sec2-tabela{
         width: 100%;
-        height: 640px;
+        height: 1100px;
         background-color: #000000;
     }
 

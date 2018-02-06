@@ -44,9 +44,9 @@ nav.navbar-transparente{
     color: rgb(11, 253, 255);
 }
 .fonts{
-    font-family: "Amatic SC", sans-serif;
+    font-family: "Vidaloka ", sans-serif;
     font-weight: bold;
-    font-size: 24pt;
+    font-size: 18pt;
 }
 
 /*-------------Section 1-------------------*/
@@ -443,11 +443,27 @@ footer{
     /*------------Sectio 3 Quem Somos-----------------*/
 
     #sec3{
-        height: 400px;
+        height: 1450px;
+        width: 100%;
         margin-bottom: 40px;
     }
+
     #quem-somos h1{
         font-family: "Amatic SC", sans-serif;
+        font-size: 36pt;
+    }
+
+    #quem-somos p{
+        font-family: "Roboto", sans-serif;
+        font-size: 12pt;
+        color: white;
+        margin-top: 50px;
+    }
+    #quem-somos ul{
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 14pt;
+        color: white;
+        margin-top: 50px;
     }
 }
 
@@ -646,12 +662,27 @@ footer{
     /*------------Sectio 3 Quem Somos-----------------*/
 
     #sec3{
-        height: 400px;
-        width: 778px;
+        height: 1450px;
+        width: 100%;
         margin-bottom: 40px;
     }
+
     #quem-somos h1{
         font-family: "Amatic SC", sans-serif;
+        font-size: 36pt;
+    }
+
+    #quem-somos p{
+        font-family: "Roboto", sans-serif;
+        font-size: 15pt;
+        color: white;
+        margin-top: 50px;
+    }
+    #quem-somos ul{
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 15pt;
+        color: white;
+        margin-top: 50px;
     }
 
     .img-lav-1{
@@ -825,13 +856,29 @@ footer{
     /*------------Sectio 3 Quem Somos-----------------*/
 
     #sec3{
-        height: 440px;
-        width: 1010px;
+        height: 1400px;
+        width: 100%;
         margin-bottom: 40px;
     }
+
     #quem-somos h1{
         font-family: "Amatic SC", sans-serif;
+        font-size: 36pt;
     }
+
+    #quem-somos p{
+        font-family: "Roboto", sans-serif;
+        font-size: 15pt;
+        color: white;
+        margin-top: 50px;
+    }
+    #quem-somos ul{
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 15pt;
+        color: white;
+        margin-top: 50px;
+    }
+
 
     .img-lav-1{
         margin-top: 20px;
@@ -1049,7 +1096,7 @@ footer{
     /*------------Sectio 3 Quem Somos-----------------*/
 
     #sec3{
-        height: 500px;
+        height: 1200px;
         width: 100%;
         margin-bottom: 40px;
     }
@@ -1057,6 +1104,19 @@ footer{
     #quem-somos h1{
         font-family: "Amatic SC", sans-serif;
         font-size: 36pt;
+    }
+
+    #quem-somos p{
+        font-family: "Roboto", sans-serif;
+        font-size: 15pt;
+        color: white;
+        margin-top: 50px;
+    }
+    #quem-somos ul{
+        font-family: "Roboto Thin", sans-serif;
+        font-size: 15pt;
+        color: white;
+        margin-top: 50px;
     }
 
     #quem-somos img{
